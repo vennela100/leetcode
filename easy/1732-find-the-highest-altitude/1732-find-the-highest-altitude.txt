@@ -1,0 +1,10 @@
+        """
+        :type gain: List[int]
+        :rtype: int
+        """
+        start=0
+        result=[0]
+        for i in gain:
+            start=start+i
+            result.append(start)
+        return max(result)
