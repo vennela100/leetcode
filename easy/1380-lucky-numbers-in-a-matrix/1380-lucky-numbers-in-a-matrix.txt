@@ -1,0 +1,10 @@
+            result.append(min(h))
+        
+        
+        for i in range(len(matrix[0])):
+            sum=[]
+            for j in range(len(matrix)):
+                sum.append(matrix[j][i])
+                a=max(sum)
+            result.append(a)
+        for y in range(len(result)):
